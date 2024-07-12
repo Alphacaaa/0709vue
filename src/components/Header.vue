@@ -13,6 +13,7 @@ export default{
         <RouterLink class="routeItem" to="/VtextAndVmodel">VtextAndVmodel</RouterLink>
         <RouterLink class="routeItem" to="/VforAndVBind">VforAndVBind</RouterLink>
         <RouterLink class="routeItem" to="/VonAndVifAndVshow">VonAndVifAndVshow</RouterLink>
+        <RouterLink class="routeItem" to="/Props">Props</RouterLink>
     </div>
 </template>
 
