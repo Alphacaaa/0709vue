@@ -14,6 +14,7 @@ export default{
         <RouterLink class="routeItem" to="/VforAndVBind">VforAndVBind</RouterLink>
         <RouterLink class="routeItem" to="/VonAndVifAndVshow">VonAndVifAndVshow</RouterLink>
         <RouterLink class="routeItem" to="/Props">Props</RouterLink>
+        <RouterLink class="routeItem" to="/emit">emit</RouterLink>
     </div>
 </template>
 

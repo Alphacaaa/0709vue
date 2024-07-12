@@ -19,18 +19,23 @@ const router = createRouter({
     },
     {
       path:'/VforAndVBind',
-      name:'/VforAndVBind',
+      name:'VforAndVBind',
       component: () => import('../views/VforAndVBind.vue'),
     },
     {
       path:'/VonAndVifAndVshow',
-      name:'/VonAndVifAndVshow',
+      name:'VonAndVifAndVshow',
       component: () =>import('../views/VonAndVifAndVshow.vue'),
     },
     {
-      path:'/Props.vue',
-      name:'/Props.vue',
+      path:'/Props',
+      name:'Props',
       component: () =>import('../views/Props.vue'),
+    },
+    {
+      path:'/emit',
+      name:'emit',
+      component: () =>import('../views/emit.vue'),
     }
   ]
 })
